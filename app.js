@@ -15,7 +15,10 @@ function clickAchievement() {
   if (i % 3) {
     options.img = '';
   }
-    addAchievement(options);
+  if (!(i % 4)) {
+    options.img = 'owl-default.png';
+  }
+  addAchievement(options);
 }
 
 function addAchievement(options) {

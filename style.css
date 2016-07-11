@@ -1,0 +1,81 @@
+#achievements-area {
+    /*background-color: #444444;*/
+    margin: 10px;
+    border: 1px dashed darkslateblue;
+    /*background-image: url("template.png");*/
+    width: 1000px;
+    height: 276px;
+}
+
+.achievement {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 92px;
+    height: 92px;
+    border: 4px solid #a08ba8;
+    color: #a08ba8;
+    border-radius: 50px;
+    background-color: #f5f2f6;
+}
+
+.achievement-count-border {
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+    height: 35px;
+    width: 35px;
+    border: inherit;
+    border-radius: 30px;
+    background-color: inherit;
+}
+
+.achievement-count-area {
+    font-family: Arial, serif;
+    font-size: 14pt;
+    font-weight: bold;
+    color: inherit;
+    position: relative;
+    display: inline-block;
+    top: 62px;
+    left: 59px;
+    height: 32px;
+    width: 35px;
+    border-radius: 30px;
+}
+
+.achievement-count-number {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: visible;
+}
+
+.achievement-background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: visible;
+    width: 92px;
+    height: 92px;
+    border-radius: 50px;
+    background: inherit;
+    /*background-color: inherit;*/
+}
+
+.achievement-background img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: visible;
+}
+
+.achievement-blue {
+    background-color: #f0f6f9;
+    border-color: #78a9c4;
+    color: #78a9c4;
+}
